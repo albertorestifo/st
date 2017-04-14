@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "ypn envypn:pixelsize=13";
+static char font[] = "Iosevka:pixelsize=13";
 static int borderpx = 2;
 
 /*
@@ -25,7 +25,7 @@ static char vtiden[] = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.1;
+static float chscale = 1.2;
 
 /*
  * word delimiter string
