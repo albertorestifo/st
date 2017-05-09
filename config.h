@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Iosevka:pixelsize=13";
-static int borderpx = 2;
+static char font[] = "Inconsolata-g for Powerline:pixelsize=13";
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -84,63 +84,31 @@ static unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 
-/* gruvbox-dark colors {{{ */
+/* Base16 Ocean colors */
 static const char *colorname[] = {
-	"#282828",
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+  "#2b303b", /* base00 */
+  "#bf616a", /* base08 */
+  "#a3be8c", /* base0B */
+  "#ebcb8b", /* base0A */
+  "#8fa1b3", /* base0D */
+  "#b48ead", /* base0E */
+  "#96b5b4", /* base0C */
+  "#c0c5ce", /* base05 */
+
+  "#65737e", /* base03 */
+  "#d08770", /* base09 */
+  "#343d46", /* base01 */
+  "#4f5b66", /* base02 */
+  "#a7adba", /* base04 */
+  "#dfe1e8", /* base06 */
+  "#ab7967", /* base0F */
+  "#eff1f5", /* base07 */
 };
 
 static unsigned int defaultfg = 15;
 static unsigned int defaultbg = 0;
 static unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 0;
-/* }}} */
-
-/* nord colors {{{ */
-/*
-static const char *colorname[] = {
-  "#3B4252",
-  "#BF616A",
-  "#A3BE8C",
-  "#EBCB8B",
-  "#81A1C1",
-  "#B48EAD",
-  "#88C0D0",
-  "#E5E9F0",
-  "#4C566A",
-  "#BF616A",
-  "#A3BE8C",
-  "#EBCB8B",
-  "#81A1C1",
-  "#B48EAD",
-  "#8FBCBB",
-  "#ECEFF4",
-
-  [255] = 0,
-
-  "#D8DEE9",
-  "#2E3440",
-};
-
-static unsigned int defaultfg = 256;
-static unsigned int defaultbg = 257;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
-*/
 /* }}} */
 
 /*
