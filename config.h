@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Inconsolata-g for Powerline:pixelsize=13";
+static char font[] = "Roboto Mono for Powerline:pixelsize=11";
 static int borderpx = 10;
 
 /*
